@@ -1,0 +1,202 @@
+nav {
+    background-color: #E4B429;
+    margin: 0;
+    padding: 0;
+    width: 74rem;
+    height: 4.5rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#title {
+    text-align: center;
+}
+
+#main-title {
+    display: inline-block;
+    text-align: left;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-left: 0;
+    margin-right: 0;
+    /* background-color: red; */
+}
+
+h2 {
+    display: inline-block;
+    text-align: left;
+    margin-left: 0;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-top: 0;
+}
+
+.main-img{
+    height: 26rem;
+    width: 55rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.about, .software, .contact,.founders{
+    height: auto;
+    width: 55rem;
+    /* background-color: red; */
+    margin: auto;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+
+.logos {
+    width: 55rem;
+    height: 8rem;
+    /* background-color: pink; */
+    margin: auto;
+    display: flex;
+}
+
+.logo{
+    height: auto;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+
+.founders {
+    display: flex;
+    /* margin-left: 1rem; */
+    margin: auto;
+    justify-content: space-between;
+}
+
+p {
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+.join-link {
+    margin-left: 0;
+    font-size: 1rem;
+    color: #C29618;
+}
+
+.language {
+    margin-left: 0;
+    margin-right: 0;
+    color: black;
+    font-size: 1rem;
+}
+
+.profile-pic {
+    background-color: #D9D9D9;
+    height: 25em;
+    width: 25rem;
+    margin-left: 0;
+    margin-right: 0;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.profile {
+    margin-left: 0;
+    margin-right: 0;
+    height: auto;
+}
+
+h3 {
+    margin-left: 0;
+}
+
+.email {
+    margin-left: 0;
+    color: black;
+}
+
+ul {
+    margin: 0;
+}
+
+a img {
+    height: 4.5rem;
+    width: auto;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex; /* Use flexbox */
+    align-items: center; /* Vertically center items */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+}
+
+#left-nav, #right-nav {
+    display: flex;
+}
+
+#left-nav li, #right-nav li {
+    margin-right: 2rem;
+}
+
+.nav-link:hover{
+    font-size: 18px;
+}
+
+.nav-link {
+    transition: all 0.3s ease;
+}
+
+.iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  iframe {
+    height: 40rem;
+    width: 58rem;
+
+  }
+
+/* #job-title{
+    display: flex;
+    justify-content: start;
+    height: 7rem; 
+    background-color: red;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+#job-title h1{
+    display: inline-block;
+    text-align: left;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-left: 0;
+    margin-right: 0;
+} */
+
+#test {
+    height: auto;
+    width: 55rem; 
+    margin: auto;
+}
