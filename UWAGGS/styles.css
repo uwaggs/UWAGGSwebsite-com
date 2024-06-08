@@ -78,7 +78,8 @@ p {
 
 .profile-pic {
     background-color: #D9D9D9;
-    height: 63%;
+    height: 20rem;
+    width: 20rem;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
@@ -201,6 +202,8 @@ body{
     margin: right 1rem;
     width: 4rem;
     height: 4rem;
+    /* position: relative;
+    right: 100px; */
 }
 
 .dropbtn:hover{
@@ -274,3 +277,25 @@ iframe {
         font-size: 0.8rem;
     }
 }
+
+@media (max-width: 600px) {
+    .profile-pic {
+        height: 10rem;
+        width: 10rem;
+        margin-right: 0;
+    }
+    .dropdown {
+        position: relative;
+        right:0rem;
+    }
+} 
+
+@media (max-width: 321px) {
+    #right-nav li{
+        margin: 0;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+        font-size: 0.7rem;
+    }
+} 
+
