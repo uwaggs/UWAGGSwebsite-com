@@ -69,7 +69,6 @@ p {
 }
 .profile {
     /* background-color: orange; */
-    height: 31rem;
     width: 20rem;
     margin-right: 4rem;
     margin-bottom: 2rem;
@@ -142,7 +141,7 @@ nav{
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -178,7 +177,7 @@ body{
     display: none; /* Hide the button by default */
   }
 
-  @media screen and (max-width: 909px) {
+  @media screen and (max-width: 1000px) {
     #left-nav{
       display: none; /* Hide the links by default on smaller screens */
       flex-direction: column;
@@ -188,6 +187,12 @@ body{
       left: 0;
       width: 100%;
       padding: 10px;
+    }
+    #right-nav {
+        display: none;
+    }
+    nav {
+        justify-content:space-between;
     }
 }
   
@@ -215,17 +220,17 @@ body{
 
 }
 
-@media (max-width: 909px) {
+@media (max-width: 1000px) {
     .dropdown {
         display: block;
     }
 }
 
-@media (max-width: 1040px) {
+/* @media (max-width: 1040px) {
     nav {
         justify-content: right;
     }
-}
+} */
 
 #left-nav li, #right-nav li {
     display: inline-block; /* Display items horizontally */
@@ -271,18 +276,6 @@ body{
 iframe {
     width: 100%;
     height: 50rem;
-}
-@media (max-width: 768px) {
-    #right-nav {
-        display: flex;
-        /* justify-content: center; */
-    }
-    #right-nav li{
-        margin: 0;
-        margin-right: 1rem;
-        margin-left: 1rem;
-        font-size: 0.8rem;
-    }
 }
 
 @media (max-width: 600px) {
@@ -356,3 +349,8 @@ ol {
     border-bottom: 1px solid rgb(160, 154, 154);
 }
 
+.bold-hyperlink {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
