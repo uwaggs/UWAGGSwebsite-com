@@ -27,6 +27,9 @@
         margin-right: 2rem;
         /* background-color: pink; */
     }
+    .left-footer h3, .right-footer h3 {
+        margin-top: 2rem;
+    }
 }
 
 
@@ -490,5 +493,12 @@ footer {
 @media screen and (min-width: 1000px) {
     #nav-oc {
         display: none;
+    }
+}
+
+@media screen and (max-width: 685px) {
+    footer {
+        /* background-color: red; */
+        height: 11rem;
     }
 }
