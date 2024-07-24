@@ -675,3 +675,11 @@ footer {
 .side-nav-mobile {
     display: none;
 }
+
+b {
+    font-weight: 460;
+}
+
+.profile-info p b {
+    font-weight: 500;
+}
