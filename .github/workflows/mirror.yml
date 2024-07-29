@@ -1,4 +1,4 @@
-name: Mirror to repo-b
+name: Mirror to UWAGGSwebsite-co
 
 on:
   push:
@@ -15,12 +15,12 @@ jobs:
       with:
         fetch-depth: 0  # Fetch all history for all branches and tags
 
-    - name: Mirror to repo-b
+    - name: Mirror to UWAGGSwebsite-com
       env:
         REPO_B_PAT: ${{ secrets.UWAGGS_WEBSITE_COM }}
       run: |
-        git clone --mirror https://github.com/uwaggs/uwaggs-website-com.git
-        cd uwaggs-website-com.git
+        git clone --mirror https://github.com/uwaggs/UWAGGSwebsite-com.git
+        cd UWAGGSwebsite-com.git
         git remote add UWAGGSwebsite https://github.com/uwaggs/UWAGGSwebsite.git
         git fetch UWAGGSwebsite
-        git push --mirror https://${{ secrets.UWAGGS_WEBSITE_COM}}@github.com/uwaggs/uwaggs-website-com.git
+        git push --mirror https://${{ secrets.UWAGGS_WEBSITE_COM}}@github.com/uwaggs/UWAGGSwebsite-com.git
