@@ -15,17 +15,12 @@ jobs:
       with:
         fetch-depth: 0  # Fetch all history for all branches and tags
 
-    - name: Set up Git
-      run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
     - name: Mirror to UWAGGSwebsite-com
       env:
-        REPO_B_PAT: ${{ secrets.UWAGGS_WEBSITE_COM }}
+        REPO_B_PAT: ${{ secrets.UWAGGS_WEBSITE_TOKEN }}
       run: |
         git clone --mirror https://github.com/uwaggs/UWAGGSwebsite-com.git
         cd UWAGGSwebsite-com.git
         git remote add UWAGGSwebsite https://github.com/uwaggs/UWAGGSwebsite.git
         git fetch UWAGGSwebsite
-        git push --mirror https://${{ secrets.UWAGGS_WEBSITE_COM }}@github.com/uwaggs/UWAGGSwebsite-com.git
+        git push --mirror https://${{ secrets.UWAGGS_WEBSITE_TOKEN }}@github.com/uwaggs/UWAGGSwebsite-com.git
