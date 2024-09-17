@@ -75,8 +75,9 @@ p {
 .join-link {
     padding-top: 0;
     font-size: 1rem;
-    color: #a38329;
-    text-decoration: none;
+    color: #FFD321;
+    font-weight: 300;
+    text-decoration: underline;
 }
 
 #profiles {
@@ -154,7 +155,7 @@ h3 {
 }
 
 nav{
-    background-color: #E4B429;
+    background-color: #FFD321;
     width: 100%;
     height: 4rem;
     margin: 0;
@@ -224,7 +225,7 @@ body{
     }
 
 .dropbtn {
-    background-color: #E4B429;
+    background-color: #FFD321;
     border: none;
     margin: right 1rem;
     width: 4rem;
@@ -351,7 +352,7 @@ ol {
 }
 
 .session {
-    border-left: 3px solid #E4B429;
+    border-left: 3px solid #FFD321;
     padding-left: 1rem;
     margin-bottom: 4rem;
 }
@@ -443,7 +444,7 @@ footer {
 .social-logo {
     width: 2.5rem;
     height: 2.5rem;
-    background-color: #E4B429;
+    background-color: #FFD321;
     border-radius: 10px;
 }
 
@@ -533,7 +534,7 @@ footer {
     right: -100%; 
     width: 100%; 
     height: 100%;
-    background-color: #E4B429; 
+    background-color: #FFD321; 
     display: none; 
     z-index: 1000; 
     transition: right 0.3s ease; 
@@ -583,7 +584,7 @@ footer {
 .inner-content .side-nav {
     width: 9rem;
     height:auto;
-    background-color: #E4B429;
+    background-color: #FFD321;
     position:fixed;
     left: 0%;
     top: 5rem;
@@ -619,7 +620,7 @@ footer {
     }
     .side-nav-mobile {
          height: 0rem;
-         background-color: #E4B429;
+         background-color: #FFD321;
     }
 }
 
@@ -661,7 +662,7 @@ footer {
 .side-nav-more {
     width: 50px;
     height: 50px;
-    background-color: #E4B429;
+    background-color: #FFD321;
     border-radius: 100%;
     position: fixed;
     bottom: 0.7rem;
